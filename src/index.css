@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #09090b;
+  --color-foreground: #fafafa;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+/* Hide Firebase environment banners */
+#__firebase__banner,
+.firebase-emulator-warning {
+  display: none !important;
+}
